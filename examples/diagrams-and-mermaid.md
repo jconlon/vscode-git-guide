@@ -88,16 +88,18 @@ sequenceDiagram
 ## Git Workflow Diagram
 
 ```mermaid
-gitgraph
-    commit id: "Initial commit"
-    branch feature
-    checkout feature
-    commit id: "Add new feature"
-    commit id: "Fix bug in feature"
-    checkout main
-    commit id: "Hotfix"
-    merge feature
-    commit id: "Release v1.1"
+flowchart TD
+    A[Initial commit] --> B[Create feature branch]
+    B --> C[Add new feature]
+    C --> D[Fix bug in feature]
+    A --> E[Hotfix on main]
+    D --> F[Merge feature to main]
+    E --> F
+    F --> G[Release v1.1]
+    
+    style B fill:#e1f5fe
+    style F fill:#c8e6c9
+    style G fill:#fff3e0
 ```
 
 ## Class Diagram
@@ -128,9 +130,9 @@ classDiagram
         +removeDocument()
     }
     
-    User ||--o{ Document : creates
-    Project ||--o{ Document : contains
-    User ||--o{ Project : owns
+    User "1" --> "*" Document : creates
+    Project "1" --> "*" Document : contains
+    User "1" --> "*" Project : owns
 ```
 
 ## Gantt Chart

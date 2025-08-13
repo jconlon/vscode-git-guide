@@ -211,6 +211,17 @@ Students will work with the example files provided:
 - Practice different Markdown features
 - Use VS Code's formatting and preview tools
 
+#### Exercise 4: Explore a Real Project (15 minutes)
+- Clone the USAHA eCVI repository: `git clone https://github.com/AAVLD-USAHA-ITStandards/eCVI.git`
+- Navigate to the project: `cd eCVI`
+- Open the project in VS Code: `code .`
+- Explore the project structure and documentation:
+  - Read the README.md file
+  - Browse through different folders and file types
+  - Navigate to `Governance/Subcommittee Charter and Bylaws.md` and examine its structure
+  - Practice using VS Code's file search and navigation
+  - Look for other Markdown files in the project
+
 ---
 
 ### Resources and References
