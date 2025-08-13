@@ -193,7 +193,12 @@ Students will work with the example files provided:
 - Clone the course repository
 - Open in VS Code and explore the interface
 - Practice file navigation and search
-- Install Markdown extensions
+- Install Markdown extensions:
+  - **Markdown All in One** - Comprehensive Markdown support with shortcuts, table of contents, and auto-preview
+  - **Markdown Preview Enhanced** (optional) - Advanced preview with math, diagrams, and export options
+  - **markdownlint** (optional) - Markdown linting and style checking
+  - **Markdown PDF** (optional) - Export Markdown to PDF, HTML, PNG, or JPEG
+  - **Mermaid Markdown Syntax Highlighting** (optional) - Syntax highlighting for Mermaid diagrams in Markdown
 
 #### Exercise 2: Create Your First Markdown Document (30 minutes)
 - Create a new file called `my-notes.md`
