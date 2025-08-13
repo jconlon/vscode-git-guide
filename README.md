@@ -55,29 +55,6 @@
 
 Visit [https://git-scm.com/downloads/mac](https://git-scm.com/downloads/mac) and follow the installation instructions for your Mac system.
 
-### Installing GitHub CLI (gh)
-
-#### Windows PC
-
-1. Visit [https://cli.github.com/](https://cli.github.com/)
-2. Download the Windows installer
-3. Run the `.msi` file and follow the installation wizard
-4. Alternatively, use package managers:
-   - **Chocolatey**: `choco install gh`
-   - **Scoop**: `scoop install gh`
-   - **Winget**: `winget install GitHub.cli`
-
-#### Mac
-
-1. **Using Homebrew (Recommended)**:
-   ```bash
-   brew install gh
-   ```
-2. **Using MacPorts**:
-   ```bash
-   sudo port install gh
-   ```
-3. **Download installer**: Visit [https://cli.github.com/](https://cli.github.com/) and download the macOS installer
 
 ### Post-Installation Setup
 
@@ -90,13 +67,6 @@ git config --global user.name "Your Full Name"
 git config --global user.email "your.email@example.com"
 ```
 
-#### Authenticate GitHub CLI
-
-```bash
-gh auth login
-```
-
-Follow the prompts to authenticate with your GitHub account.
 
 ---
 
